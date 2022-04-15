@@ -20,5 +20,9 @@ public class StudentDemo {
         Student s1 = new Student();
         Student s2 = new Student();
         System.out.println(s1.u);
+        System.out.println(s1);
+        System.out.println(s1.getClass());
+        System.out.println(s1.getClass().getName());
+        System.out.println(s1.hashCode());
     }
 }
